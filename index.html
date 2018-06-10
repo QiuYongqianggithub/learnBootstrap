@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	<!-- 告诉ie浏览器用最新的引擎去渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bootstrap3</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+	    <h1 class="page-header">标题</h1>
+        <p>使用类名page-header的作用?container类的默认样式都是给移动设备设置的，随着屏幕尺寸变大，将会通过媒体查询的方式来相应设置</p>
+    </div>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-8">
+    			<h2 class="page-header">主体</h2>
+                 <p>使用类名page-header的作用?container类的默认样式都是给移动设备设置的，随着屏幕尺寸变大，将会通过媒体查询的方式来相应设置</p>
+            </div>
+    		<div class="col-md-4">
+    			<h2 class="page-header">边栏</h2>
+                <p>使用类名page-header的作用?container类的默认样式都是给移动设备设置的，随着屏幕尺寸变大，将会通过媒体查询的方式来相应设置</p>
+            </div>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-sm-8">
+    			<h2 class="page-header">主体</h2>
+                 <p>在平板电脑中使用col-sm,当屏幕尺寸是常规平板的大小是，页面正好是两栏布局的</p>
+            </div>
+    		<div class="col-sm-4">
+    			<h2 class="page-header">边栏</h2>
+                <p>在平板电脑中使用col-sm,当屏幕尺寸是常规平板的大小是，页面正好是两栏布局的</p>
+            </div>
+    	</div>
+    </div>
+
+     <div class="container">
+    	<div class="row">
+    		<div class="col-xs-8">
+    			<h2 class="page-header">主体</h2>
+                 <p>在平板电脑中使用col-sm,当屏幕尺寸是常规平板的大小是，页面正好是两栏布局的</p>
+            </div>
+    		<div class="col-xs-4">
+    			<h2 class="page-header">边栏</h2>
+                <p>在平板电脑中使用col-sm,当屏幕尺寸是常规平板的大小是，页面正好是两栏布局的</p>
+            </div>
+    	</div>
+    </div>
+
+     <div class="container">
+    	<div class="row">
+    		<div class="col-xs-6 col-sm-8">
+    			<h2 class="page-header">主体</h2>
+                 <p>col-md-4,col-xs-6等可以应用在同一个元素之上，以实现在不同屏幕下有不同的布局,原理是col-md-*在对应的屏幕尺寸下，能够覆盖其它类,如果对应屏幕下没有对应的类，就是用小一号的类</p>
+            </div>
+    		<div class="col-xs-6 col-sm-4">
+    			<h2 class="page-header">边栏</h2>
+                <p>col-md-4,col-xs-6等可以应用在同一个元素之上，以实现在不同屏幕下有不同的布局</p>
+            </div>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-9 col-md-push-3">
+    			<h2 class="page-header">主体</h2>
+                 <p>不改变代码结构，实现元素左右互换，col-md-push-3表示向右推3个网格，col-md-pull-9表示向左拉9个网格，注意col-md-9 col-md-push-3的对应</p>
+            </div>
+    		<div class="col-md-3 col-md-pull-9">
+    			<h2 class="page-header">边栏</h2>
+                <p>不改变代码结构，实现元素左右互换，col-md-push-3表示向右推3个网格，col-md-pull-9表示向左拉9个网格</p>
+            </div>
+    	</div>
+    </div>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-9">
+    			<h2 class="page-header">主体</h2>
+                 <p>不改变代码结构，实现元素左右互换，col-md-push-3表示向右推3个网格，col-md-pull-9表示向左拉9个网格</p>
+                 <div class="row">
+                 	<div class="col-md-4">
+                 		<h3>区块一导致区块四上来</h3>
+                 		<p>区块一的文字很多时：可以用.clearfix类，或者在区块四五外面用.row类。会见记者前，成员国领导人签署了《上海合作组织成员国元首理事会青岛宣言》以及一系列决议，包括批准《实施纲要(2018-2022年)》，批准《上海合作组织成员国打击恐怖主义、分裂主义和极端主义2019年至2021年合作纲要》，批准《2018-2023年上海合作组织成员国禁毒战略》及其落实行动计划，批准《上海合作组织预防麻醉药品和精神药品滥用构想》，制定《上海合作组织成员国粮食安全合作纲要》草案，批准《上海合作组织成员国环保合作构想》，批准《实施纲要》，批准《上海合作组织秘书长关于上海合作组织过去一年工作的报告》，批准《上海合作组织地区反恐怖机构理事会关于地区反恐怖机构2017年工作的报告》，签署《上海合作组织秘书处与联合国教科文组织合作谅解备忘录(2018-2022年)》，任命上海合作组织秘书长、上海合作组织地区反恐怖机构执行委员会主任等，见证了经贸、海关、旅游、对外交往等领域合作文件的签署。</p>
+                 	</div>
+                 	<div class="col-md-4">
+                 		<h3>区块二</h3>
+                 		<p>在col-md-*屏幕下的网格嵌套</p>
+                 	</div>
+                 	<div class="col-md-4">
+                 		<h3>区块三</h3>
+                 		<p>在col-md-*屏幕下的网格嵌套</p>
+                 	</div>
+                 	<div class="clearfix"></div>
+                 	<div class="col-md-6">
+                 		<h3>6份网格的区块四</h3>
+                 		<p>会见记者前，成员国领导人签署了《上海合作组织成员国元首理事会青岛宣言》以及一系列决议，包括批准《实施纲要(2018-2022年)》，批准《上海合作组织成员国打击恐怖主义、分裂主义和极端主义2019年至2021年合作纲要》，批准《2018-2023年上海合作组织成员国禁毒战略》及其落实行动计划，批准《上海合作组织预防麻醉药品和精神药品滥用构想》，制定《上海合作组织成员国粮食安全合作纲要》草案，批准《上海合作组织成员国环保合作构想》，批准《实施纲要》，批准《上海合作组织秘书长关于上海合作组织过去一年工作的报告》，批准《上海合作组织地区反恐怖机构理事会关于地区反恐怖机构2017年工作的报告》，签署《上海合作组织秘书处与联合国教科文组织合作谅解备忘录(2018-2022年)》，任命上海合作组织秘书长、上海合作组织地区反恐怖机构执行委员会主任等，见证了经贸、海关、旅游、对外交往等领域合作文件的签署。</p>
+                 	</div>
+                 	<div class="col-md-6">
+                 		<h3>6份网格的区块五</h3>
+                 		<p>在col-md-*屏幕下的网格嵌套</p>
+                 	</div>
+                 </div>
+            </div>
+    		<div class="col-md-3">
+    			<h2 class="page-header">边栏</h2>
+                <p>不改变代码结构，实现元素左右互换，col-md-push-3表示向右推3个网格，col-md-pull-9表示向左拉9个网格</p>
+            </div>
+    	</div>
+    </div>
+</body>
+</html>
